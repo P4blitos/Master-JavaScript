@@ -25,3 +25,6 @@ console.log(String(numero_entero)+ numero_entero);
 //pasa saber que tipo de dato es una variable se usa typeof
 console.log(typeof numero_entero)
 console.log(typeof boleano);
+var pablo= "9";
+pablo=parseInt(pablo);
+console.log(typeof(pablo))
