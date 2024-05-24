@@ -17,3 +17,34 @@ if(edadP >=18 && edadP <60){
 }else if(edadP >=60){
     console.log(nombre+" es un anciano, con una edad de "+edadP);
 }
+
+//AND: && , OR: ||, Negacion: !
+let year= 2021;
+if(year > 2000 && year <= 2100 ){
+    console.log("Estamos en el siglo 21");
+}else if(year < 2000){
+    console.log("Estamos en siglos pasados");
+}
+
+if(year==2020 || year==2021){
+    console.log("Estamos en epoca de pandemia");
+}
+
+//switch
+console.log("Switch");
+var edad= 14;
+
+switch(edad){
+    case 18:
+        console.log("eres mayor de edad");
+        break;
+    case 65:
+        console.log("Eres un viejito");
+        break;
+    case 15:
+        console.log("Eres  menor de edad");
+        break;
+    default:
+        console.log("Eres un eterno");
+        break;
+}
