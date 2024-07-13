@@ -1,8 +1,8 @@
 'use strict'
 /* Ejercicio que pida dos numeros y que diga cual es mayor, menor o iguales */
 
-let num1= parseInt(prompt("Digita el primer numero", 0)) ;
-let num2= parseInt(prompt("Digita el segundo numero", 0)) ;
+var num1= parseInt(prompt("Digita el primer numero", 0)) ;
+var num2= parseInt(prompt("Digita el segundo numero", 0)) ;
 while(num1 <= 0  || num2 <= 0 || isNaN(num1) || isNaN(num2)){
     num1= parseInt(prompt("Digita el primer numero", 0)) ;
     num2= parseInt(prompt("Digita el segundo numero", 0)) ;
